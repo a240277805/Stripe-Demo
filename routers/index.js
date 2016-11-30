@@ -7,7 +7,7 @@ router.get('/',function(req,res,next){
     res.render('teststripebtn');
 });
 router.post('/charge',function(req,res,next){
-
+  //test commit
     //虽然是可选的，我们强烈建议还具有检测收集用户的邮政编码地址和邮政编码验证有助于减少欺诈。
     console.log('enter /charge req and the token is-----:'+req.body.stripeToken);
 
