@@ -7,3 +7,4 @@ test webside Stripe
 
 问题：
 1.使用测试支付成功，但使用 live secret key 报错：由于网络系统原因，Stripe支付失败，
+  2. hahah  
