@@ -7,3 +7,7 @@ test webside Stripe
 
 问题：
 1.使用测试支付成功，但使用 live secret key 报错：由于网络系统原因，Stripe支付失败，
+
+2.激活 Stripe账户，现在不支持中国，需要Stripe Atlas来建立一个支持的国家的账户来进行交易。
+
+3.测试上传 ，今天
