@@ -15,6 +15,8 @@ app.use(bodyParser.urlencoded({extended : false}));
 
 app.use('/', route);
 //test  commit
+//test commit 1
+//test commit3
 
 app.set('port',3000);
 var server = http.createServer(app);
