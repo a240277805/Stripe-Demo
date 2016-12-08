@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var path = require('path');
-var stripe = require("stripe")("sk_live_EfFZk6Me4H8DfilKVObyX2eB");
+var stripe = require("stripe")("sk_test_leDe9ofnJ3S4X2xoKV0xAHDm");
 router.get('/',function(req,res,next){
     console.log('enter / req');
     res.render('teststripebtn');
@@ -20,7 +20,7 @@ router.post('/charge',function(req,res,next){
 
     // Create a charge: this will charge the user's card
     var charge = stripe.charges.create({
-        amount: 1000, // Amount in cents
+        amount: 3000, // Amount in cents
         currency: "usd",
         source: token,
         description: "Example charge"
