@@ -1,0 +1,6 @@
+{
+  "name": "Stripe-demo",
+  "tagline": "test",
+  "body": "test webside Stripe\r\n\r\n待做：\r\n1.存储用户信息\r\n2.验证用户信息，如邮箱\r\n\r\n\r\n问题：\r\n1.使用测试支付成功，但使用 live secret key 报错：由于网络系统原因，Stripe支付失败，\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
