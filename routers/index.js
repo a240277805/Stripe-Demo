@@ -41,5 +41,8 @@ router.post('/charge',function(req,res,next){
     });
 })
 
-
+router.get('/test',function(req,res,next){
+    console.log('enter /test req');
+    res.render('test');
+});
 module.exports=router;
